@@ -33,7 +33,7 @@ function App() {
                   src={imgSrc}
                   key={imgSrc}
                   alt="natureImage"
-                  className="sliderImg"
+                  className={`sliderImg ${currentImg === index ? "active":""}`}
                 ></img>
               )
             );
